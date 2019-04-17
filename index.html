@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <meta charset="utf-8">
+                <title>My Portfolio</title>
+                <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+                <script type="text/javascript" src="js/bootstrap.min.js"></script>
+                <script type="text/javascript" src="js/main.js"></script>
+                <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+                <link rel="stylesheet" type="text/css" href="css/style.css">
+        </head>
+        <body>
+                <div class="container-fluid">
+                <!-- Header </-->
+                        <header>
+                                <div class="row">
+                                <div id="logo" class="col-md-6 col-sm-3 col-xs-2">
+                                        <img class="title-logo img" src="img/logo.svg" alt="Udacity-logo">
+                                </div>
+                                <div id="super-title" class="col-md-6 col-sm-9 col-xs-10 text-right text-uppercase">
+                                        <h1 class="title-super text-thin">Viral Patel</h1>
+                                        <h4 class="title-small">Front-end Ninja</h4>
+                                </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-md-12"><hr></div>
+                                </div>
+                        </header>
+                <!-- Main -->
+                        <section id="main">
+                                <div class="row">
+                                        <div class="col-md-12">
+                                                <img src="http://placekitten.com/2000/900" class="img-responsive">
+                                        </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-md-12">
+                                                <h2 class="text-muted">Featured Work</h2>
+                                        </div>
+                                </div>
+                                <div class="row text-uppercase text-center">
+                                        <div class="col-md-4 col-sm-12">
+                                                <img class="img-responsive" src="img/simon.png" data-toggle="modal" data-target="#project1">
+                                                <h3>Simon Game</h3>
+                                                <a href="https://codepen.io/excviral/full/gMmOpm/" target="_blank">view on codepen</a>
+                                        </div>
+                                        <div class="col-md-4 col-sm-12">
+                                                <img class="img-responsive" src="img/sketchy.png" data-toggle="modal" data-target="#project2">
+                                                <h3 >Etch A Sketch</h3>
+                                                <a href="https://codepen.io/excviral/full/PbQbBZ/" target="_blank">view on codepen</a>
+                                        </div>
+                                        <div class="col-md-4 col-sm-12">
+                                                <img class="img-responsive" src="img/tictactoe.png" data-toggle="modal" data-target="#project3">
+                                                <h3>Tic Tac Toe</h3>
+                                                <a href="https://codepen.io/excviral/full/LZZdog/" target="_blank">view on codepen</a>
+                                        </div>
+                                </div>
+                        </section>
+
+                <!-- footer -->
+                        <footer>
+                                <div class="row">
+                                        <div class="col-md-12"><hr></div>
+                                </div>
+                                <div class="row text-center">
+                                        <div class="col-md-4 col-sm-12">
+                                                <h2 class="text-uppercase text-muted">Location</h2>
+                                                <p class="text-medium"><i class="fa fa-fw fa-map-marker icon-medium"></i>Gandhinagar, Gujarat, India</p>
+                                        </div>
+                                        <div class="col-md-4 col-sm-12">
+                                                <h2 class="text-uppercase text-muted row">Around the web</h2>
+                                                <span class="row">
+                                                        <div class="icon-wrapper col-md-4"><a a href="https://www.behance.net/excViral"><i class="fa fa-fw fa-behance custom-icon"></i></a></div>
+                                                        <div class="icon-wrapper col-md-4"><a href="http://codepen.io/excviral/"><i class="fa fa-fw fa-codepen custom-icon"></i></a></div>
+                                                        <div class="icon-wrapper col-md-4"><a href="http://github.com/ExcViral/"><i class="fa fa-fw fa-github custom-icon"></i></a></div>
+                                                </span>
+                                        </div>
+                                        <div class="col-md-4 col-sm-12">
+                                                <h2 class="text-uppercase text-muted">Contact info</h2>
+                                                <p class="text-medium"><i class="fa fa-fw fa-phone icon-medium">&nbsp;</i> +91 9408995744</p>
+                                                <p class="text-medium"><i class="fa fa-fw fa-envelope icon-medium">&nbsp;</i>exc.viral@gmail.com</p>
+                                        </div>
+                                </div>
+                        </footer>
+                </div>
+
+        <!-- Modal -->
+        <!-- to do add modals for all the projects -->
+        <!-- Modal for Project 1 -->
+            <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">Simon Game</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive img-small" src="img/simon.png">
+                            This is a simple game made in JavaScript and HTML. I made this game while studying JavaScript. I learned a lot during this course.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal for project 2 -->
+            <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">Etch A sketch</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive img-small" src="img/sketchy.png">
+                            This is a sketch pad made in JavaScript and HTML. I made this while studying JavaScript. I learned a lot during this course..
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal for project 3 -->
+            <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">Tic Tac Toe</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive img-small" src="img/tictactoe.png">
+                            This was my first project in this class. I learned a lot about HTML and CSS. I made this game using HTML, bit of CSS & some JavaScript.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </body>
+</html>
